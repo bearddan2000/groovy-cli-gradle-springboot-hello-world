@@ -1,17 +1,13 @@
-# java-cli-buildr-spring-trans-dep-hello-world
+# groovy-cli-gradle-springboot-hello-world
 
 ## Description
-This is a POC project to demonstrate the
-apache buildr build tool that uses
-spring boot as a tratransitive dependency.
+A POC for spring framework.
 
 ## Tech stack
-- buildr
-- java
-    - spring
+- spring boot
 
 ## Docker stack
-- vanto/apache-buildr:latest-jruby-jdk8
+- gradle:7.6.4-jdk11-alpine
 
 ## To run
 `sudo ./install.sh -u`
@@ -21,6 +17,3 @@ spring boot as a tratransitive dependency.
 
 ## To see help
 `sudo ./install.sh -h`
-
-## Credits
-[Apache buildr docs](https://buildr.apache.org/quick_start.html)
